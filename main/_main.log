@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  12 MAY 2023 11:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  15 MAY 2023 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2888,157 +2888,198 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 80.
 
-(../quantoan/quantoan.tex
-File: ../quantoan/pic//1.png Graphic file (type bmp)
-<../quantoan/pic//1.png>
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 20.
-Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
-um;mapping=tex-text;" at 10.95pt
- -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
-d/EBGaramond-Regular.otf
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 20.
-Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
-m;mapping=tex-text;" at 10.95pt
- -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
-d/EBGaramond-Italic.otf
-Package microtype Info: Character `156' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
+(../diendantoanhoc/diendantoanhoc2.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 20.
+ 5.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-Requested font "zptmcm7t" at 10.95pt
+Requested font "zptmcm7t" at 12.0pt
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Requested font "zptmcm7t" at 8.0pt
-Requested font "zptmcm7t" at 6.0pt
+Requested font "zptmcm7t" at 9.0pt
+Requested font "zptmcm7t" at 7.0pt
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 20.
+ 5.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-Requested font "zptmcm7m" at 10.95pt
-Requested font "zptmcm7m" at 8.0pt
-Requested font "zptmcm7m" at 6.0pt
+Requested font "zptmcm7m" at 12.0pt
+Requested font "zptmcm7m" at 9.0pt
+Requested font "zptmcm7m" at 7.0pt
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 20.
+ 5.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-Requested font "zptmcm7y" at 10.95pt
-Requested font "zptmcm7y" at 8.0pt
-Requested font "zptmcm7y" at 6.0pt
+Requested font "zptmcm7y" at 12.0pt
+Requested font "zptmcm7y" at 9.0pt
+Requested font "zptmcm7y" at 7.0pt
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 20.
+ 5.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-Requested font "zptmcm7v" at 10.95pt
-Requested font "zptmcm7v" at 8.0pt
-Requested font "zptmcm7v" at 6.0pt
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-0.
+Requested font "zptmcm7v" at 12.0pt
+Requested font "zptmcm7v" at 9.0pt
+Requested font "zptmcm7v" at 7.0pt
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-Requested font "ptmb7t" at 10.95pt
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+Requested font "ptmb7t" at 12.0pt
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-Requested font "ptmb7t" at 8.0pt
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-Requested font "ptmb7t" at 6.0pt
-Requested font "ptmri7t" at 10.95pt
-Requested font "ptmri7t" at 8.0pt
-Requested font "ptmri7t" at 6.0pt
-Requested font "msam10" at 10.95pt
-
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-Requested font "msam10" at 8.0pt
-Requested font "msam10" at 6.0pt
-Requested font "msbm10" at 10.95pt
-
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Requested font "msbm10" at 8.0pt
-Requested font "msbm10" at 6.0pt
-LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
-20.
-
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/yhmath\omxyhex.fd
-File: OMXyhex.fd 
-File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
-)
-Requested font "yhcmex10" at 10.95pt
-Requested font "yhcmex10" at 8.0pt
-Requested font "yhcmex10" at 6.0pt
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
-.
-
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Requested font "rsfs10" at 10.95pt
-Requested font "rsfs10" at 8.0pt
-Requested font "rsfs5" at 6.0pt
-Requested font "zptmcm7t" at 12.0pt
-Requested font "zptmcm7t" at 9.0pt
-Requested font "zptmcm7t" at 7.0pt
-Requested font "zptmcm7m" at 12.0pt
-Requested font "zptmcm7m" at 9.0pt
-Requested font "zptmcm7m" at 7.0pt
-Requested font "zptmcm7y" at 12.0pt
-Requested font "zptmcm7y" at 9.0pt
-Requested font "zptmcm7y" at 7.0pt
-Requested font "zptmcm7v" at 12.0pt
-Requested font "zptmcm7v" at 9.0pt
-Requested font "zptmcm7v" at 7.0pt
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-Requested font "ptmb7t" at 12.0pt
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 Requested font "ptmb7t" at 9.0pt
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 Requested font "ptmb7t" at 7.0pt
 Requested font "ptmri7t" at 12.0pt
 Requested font "ptmri7t" at 9.0pt
 Requested font "ptmri7t" at 7.0pt
 Requested font "msam10" at 12.0pt
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
 Requested font "msam10" at 9.0pt
 Requested font "msam10" at 7.0pt
 Requested font "msbm10" at 12.0pt
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 Requested font "msbm10" at 9.0pt
 Requested font "msbm10" at 7.0pt
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
+5.
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/yhmath\omxyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
 Requested font "yhcmex10" at 12.0pt
 Requested font "yhcmex10" at 9.0pt
 Requested font "yhcmex10" at 7.0pt
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 Requested font "rsfs10" at 12.0pt
 Requested font "rsfs10" at 9.0pt
 Requested font "rsfs7" at 7.0pt
-File: ../quantoan/pic//2.png Graphic file (type bmp)
-<../quantoan/pic//2.png>
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 5.
+Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
+um;mapping=tex-text;" at 9.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Regular.otf
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 5.
+Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
+um;mapping=tex-text;" at 10.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Regular.otf
+Requested font "zptmcm7t" at 10.0pt
+Requested font "zptmcm7t" at 7.4pt
+Requested font "zptmcm7t" at 6.0pt
+Requested font "zptmcm7m" at 10.0pt
+Requested font "zptmcm7m" at 7.4pt
+Requested font "zptmcm7m" at 6.0pt
+Requested font "zptmcm7y" at 10.0pt
+Requested font "zptmcm7y" at 7.4pt
+Requested font "zptmcm7y" at 6.0pt
+Requested font "zptmcm7v" at 10.0pt
+Requested font "zptmcm7v" at 7.4pt
+Requested font "zptmcm7v" at 6.0pt
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+Requested font "ptmb7t" at 10.0pt
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+Requested font "ptmb7t" at 7.4pt
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+Requested font "ptmb7t" at 6.0pt
+Requested font "ptmri7t" at 10.0pt
+Requested font "ptmri7t" at 7.4pt
+Requested font "ptmri7t" at 6.0pt
+Requested font "msam10" at 10.0pt
+Requested font "msam10" at 7.4pt
+Requested font "msam10" at 6.0pt
+Requested font "msbm10" at 10.0pt
+Requested font "msbm10" at 7.4pt
+Requested font "msbm10" at 6.0pt
+Requested font "yhcmex10" at 10.0pt
+Requested font "yhcmex10" at 7.4pt
+Requested font "yhcmex10" at 6.0pt
+Requested font "rsfs10" at 10.0pt
+Requested font "rsfs5" at 6.0pt
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 7.4pt on input line 5.
+Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
+um;mapping=tex-text;" at 7.4pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Regular.otf
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 5.
+Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
+m;mapping=tex-text;" at 10.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Italic.otf
+Package microtype Info: Character `156' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 13.
+Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
+m;mapping=tex-text;" at 12.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Italic.otf
+Package microtype Info: Character `156' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/it' will be
+(Font)              scaled to size 12.0pt on input line 13.
+Requested font "[EBGaramond-BoldItalic.otf]/OT:script=latn;language=dflt;+pnum;
++onum;mapping=tex-text;" at 12.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-BoldItalic.otf
+Package microtype Info: Character `156' is missing
+(microtype)             in font `\TU/EBGaramond(0)/b/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 17.
+Requested font "[EBGaramond-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;
+mapping=tex-text;" at 12.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Bold.otf
+File: ../diendantoanhoc/pic//1.png Graphic file (type bmp)
+<../diendantoanhoc/pic//1.png>
+
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 1 might be wrong on input line 35.
+
+
+Overfull \vbox (11.62634pt too high) has occurred while \output is active []
+
 
 
 Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
@@ -3055,35 +3096,199 @@ Package microtype Info: Loading generic protrusion settings for font family
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmsans
 8-regular.otf
-File: ../quantoan/pic//../bannerquantoan.jpg Graphic file (type bmp)
-<../quantoan/pic//../bannerquantoan.jpg>
-File: ../quantoan/pic//../tieude.pdf Graphic file (type pdf)
-<use ../quantoan/pic//../tieude.pdf>
-File: fquantoan2.pdf Graphic file (type pdf)
-<use fquantoan2.pdf>
-File: fquantoan2.pdf Graphic file (type pdf)
-<use fquantoan2.pdf>
-File: fquantoan2.pdf Graphic file (type pdf)
-<use fquantoan2.pdf>
+File: ../diendantoanhoc/pic//../bannerdiendan.jpg Graphic file (type bmp)
+<../diendantoanhoc/pic//../bannerdiendan.jpg>
+File: ../diendantoanhoc/pic//../tieude.pdf Graphic file (type pdf)
+<use ../diendantoanhoc/pic//../tieude.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
 [1
 
 ]
-File: ../quantoan/pic//3.png Graphic file (type bmp)
-<../quantoan/pic//3.png>
+File: ../diendantoanhoc/pic//2.png Graphic file (type bmp)
+<../diendantoanhoc/pic//2.png>
+
+Underfull \hbox (badness 5064) in paragraph at lines 51--52
+\TU/EBGaramond(0)/m/n/12 của các đường tròn $[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/
+it/12 PAA[]\OT1/ztmcm/m/n/12 )$[] \TU/EBGaramond(0)/m/n/12 và $[]\OT1/ztmcm/m/n
+/12 (\OML/ztmcm/m/it/12 PBB[]\OT1/ztmcm/m/n/12 )$[]\TU/EBGaramond(0)/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/EBGaramond(0)/m/n/12 Ta có $[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 AS; AP\
+OT1/ztmcm/m/n/12 ) = (\OML/ztmcm/m/it/12 A[]S; A[]P\OT1/ztmcm/m/n/12 )( [] \OML
+/ztmcm/m/it/12 ^^Y\OT1/ztmcm/m/n/12 )$[]\TU/EBGaramond(0)/m/n/12 ,
+ []
+
+File: ../diendantoanhoc/pic//3.png Graphic file (type bmp)
+<../diendantoanhoc/pic//3.png>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+[2]
+File: ../diendantoanhoc/pic//4.png Graphic file (type bmp)
+<../diendantoanhoc/pic//4.png>
+File: ../diendantoanhoc/pic//5.png Graphic file (type bmp)
+<../diendantoanhoc/pic//5.png>
+File: ../diendantoanhoc/pic//6.png Graphic file (type bmp)
+<../diendantoanhoc/pic//6.png>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+ [3]
+File: ../diendantoanhoc/pic//7.png Graphic file (type bmp)
+<../diendantoanhoc/pic//7.png>
+File: ../diendantoanhoc/pic//9.png Graphic file (type bmp)
+<../diendantoanhoc/pic//9.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+\TU/EBGaramond(0)/m/n/12 đồng dạng (g.g) nên ta có $[]\U/msa/m/n/12 \\OML/ztmcm
+/m/it/12 ABC \OT1/ztmcm/m/n/12 =
+ []
+
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+[4]
+File: ../diendantoanhoc/pic//10.png Graphic file (type bmp)
+<../diendantoanhoc/pic//10.png>
+File: ../diendantoanhoc/pic//11.png Graphic file (type bmp)
+<../diendantoanhoc/pic//11.png>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+ [5]
+File: ../diendantoanhoc/pic//12.png Graphic file (type bmp)
+<../diendantoanhoc/pic//12.png>
+File: ../diendantoanhoc/pic//14.png Graphic file (type bmp)
+<../diendantoanhoc/pic//14.png>
+
+Overfull \hbox (4.04115pt too wide) in paragraph at lines 206--208
+ [][] 
+ []
+
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+[6]
+File: ../diendantoanhoc/pic//15.png Graphic file (type bmp)
+<../diendantoanhoc/pic//15.png>
+File: ../diendantoanhoc/pic//16.png Graphic file (type bmp)
+<../diendantoanhoc/pic//16.png>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+ [7]
+File: ../diendantoanhoc/pic//17.png Graphic file (type bmp)
+<../diendantoanhoc/pic//17.png>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+ [8]
+File: ../diendantoanhoc/pic//18.png Graphic file (type bmp)
+<../diendantoanhoc/pic//18.png>
+File: ../diendantoanhoc/pic//19.png Graphic file (type bmp)
+<../diendantoanhoc/pic//19.png>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+File: diendan2.pdf Graphic file (type pdf)
+<use diendan2.pdf>
+File: fdiendan2.pdf Graphic file (type pdf)
+<use fdiendan2.pdf>
+ [9]
+Underfull \hbox (badness 5417) in paragraph at lines 315--316
+[]\TU/EBGaramond(0)/m/n/12 [$[]\OT1/ztmcm/m/n/12 6$[]\TU/EBGaramond(0)/m/n/12 ]
+ Johnson, A. R, \TU/EBGaramond(0)/m/it/12 Advanced Euclidean
+ []
+
 )
-File: quantoan1.pdf Graphic file (type pdf)
-<use quantoan1.pdf>
-File: fquantoan1.pdf Graphic file (type pdf)
-<use fquantoan1.pdf>
-File: quantoan1.pdf Graphic file (type pdf)
-<use quantoan1.pdf>
-File: fquantoan1.pdf Graphic file (type pdf)
-<use fquantoan1.pdf>
-File: quantoan1.pdf Graphic file (type pdf)
-<use quantoan1.pdf>
-File: fquantoan1.pdf Graphic file (type pdf)
-<use fquantoan1.pdf>
- [2] (_main.aux)
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+File: diendan1.pdf Graphic file (type pdf)
+<use diendan1.pdf>
+File: fdiendan1.pdf Graphic file (type pdf)
+<use fdiendan1.pdf>
+ [10] (_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3094,12 +3299,12 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 69073 strings out of 410939
- 1574712 string characters out of 2823530
- 2648859 words of memory out of 3000000
- 88592 multiletter control sequences out of 15000+600000
- 500835 words of font info for 114 fonts, out of 8000000 for 9000
+ 69347 strings out of 410939
+ 1580849 string characters out of 2823530
+ 2648861 words of memory out of 3000000
+ 88856 multiletter control sequences out of 15000+600000
+ 500710 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,11n,120p,1132b,782s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 104i,12n,120p,1132b,581s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on _main.pdf (2 pages).
+Output written on _main.pdf (10 pages).
