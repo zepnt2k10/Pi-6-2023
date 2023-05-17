@@ -993,3 +993,123 @@
 %		\end{align*}		
 %		Thus, the score of the path is $100-2={98}.$
 %\end{multicols}
+
+\newpage
+\begingroup
+\thispagestyle{toancuabinone}
+\blfootnote{$^1$\color{toancuabi}Ottawa, Canada.}
+\AddToShipoutPicture*{\put(60,733){\includegraphics[width=17.2cm]{../mathc.pdf}}}
+%\AddToShipoutPicture*{\put(-2,733){\includegraphics[width=17.2cm]{../mathl.pdf}}} 
+\AddToShipoutPicture*{\put(66,645){\includegraphics[scale=1]{../tieude5.pdf}}} 
+\centering
+\endgroup
+\graphicspath{{../toancuabi/pic/}}
+\vspace*{60pt}
+
+\begin{multicols}{2}
+	In this article, we explore some basic properties of broken lines.
+	\vskip 0.2cm
+	{\color{toancuabi}\textbf{Fact} (Triangle Inequality)\textbf{.}}
+	For any three points $A,B,C$, 
+	\begin{align*}
+		AB + BC \ge AC,
+	\end{align*}
+	The equality holds if and only if $A, B,$ and $C$ are collinear.
+	\vskip 0.1cm
+	{\color{toancuabi}\textbf{Fact} (Broken Line Inequality)\textbf{.}}
+	For any points $A_1,A_2,\ldots,A_n$, $A_1A_2 + A_2A_3 + \ldots + A_{n-1} A_{n} \ge A_1 A_n.$
+	The equality holds if and only if $A_1,A_2,\ldots,A_{n-1},$ and $A_n$ are collinear.
+	\vskip 0.2cm
+	\PIbox{ {\color{toancuabi}\textbf{Lemma} (Heron's Problem)\textbf{.}}
+		Two points $A$ and $B$ lie on one side of a straight line $l$.
+		$C$ is a point on on $l$.
+		The sum $CA+CB$ is minimal if and only if $C = BC' \cap \ell$, where $B'$ is the reflection of $B$ over $l$.}
+	\vskip 0.2cm
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.85\linewidth]{heron-problem-1.pdf}
+		\vspace*{-5pt}
+	\end{figure}
+	\vskip 0.1cm
+	\PIbox{ {\color{toancuabi}\textbf{Example} (Cross--section of a cube)\textbf{.}}
+		Lilian cuts a cube with side length $1.$ She got a with a  hexagon cross--section as shown below.
+		What is the minimal value of the hexagon perimeter $AB+BC+CD+DE+EF+FA$?}
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{pi-2023-02-01.pdf}
+		\vspace*{-20pt}
+	\end{figure}
+	\textit{Solution.}
+	The diagram below is obtained by unfolding the cube into a net. The hexagon perimeter forms a broken line $ABCDEFA'.$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.9\linewidth]{pi-2023-02-02.pdf}
+		\vspace*{-5pt}
+	\end{figure}
+	This is always larger or equal the distance $AA',$ which is same as three times the diagonal of the unit square.
+	Hence the perimeter is always at least ${3\sqrt{2}}.$
+	\vskip 0.2cm
+	\PIbox{{\color{toancuabi}\textbf{Example} (Diagonal of a hexagon)\textbf{.}}		
+		$ABCDEF$ is a convex hexagon, where $\angle A \ge 90\dg$ and $\angle D \ge 90\dg.$
+		Prove that $BC+CE+EF+FB\ge 2AD.$}
+	\vskip 0.2cm
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{pi-2023-02-03.pdf}
+		\vspace*{-10pt}
+	\end{figure}
+	\textit{Proof}.
+	Let $M, N,$ and $P$ be the midpoints of $BF, BE,$ and $CE,$ respectively.
+	Since any broken line is longer or equal the distance between two endpoints, so $AD\le AM+MN+NP+PD.$
+	$MN$ is the median segment in $\triangle BEF,$ thus $FE = 2MN.$ Similarly $BC=2NP.$
+	In $\triangle ABF,$ $\angle A \ge 90\dg,$ thus $BF \ge 2AM.$ Similarly $CE \ge 2DP.$
+	Therefore $BC+CE+EF+FB \ge 2(AM+MN+NP+PD) = 2AD.$
+	\vskip 0.2cm
+	\PIbox{{\color{toancuabi}\textbf{Example} (Romanian Math Olympiad)\textbf{.}}
+		Let $ABCD$ be a convex quadrilateral. It is known that the circles with diameter $AB$ and $CD$ are externally tangent,
+		and so are the circles with diameters $AD$ and $BC.$
+		Prove that $ABCD$ is a rhombus.}
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.8\linewidth]{romanian-pb-gt-40.pdf}
+		\vspace*{-10pt}
+	\end{figure}
+	\textit{Proof}.
+	We first prove a claim.
+	\vskip 0.1cm
+	\textbf{Claim.} Let $M$ and $N$ be the midpoint of $AB$ and $CD$, respectively, then $AD+ BC \ge 2MN.$
+	\vskip 0.1cm
+	\textit{Proof.}
+	Let $E$ be the midpoint of $AC.$ It is easy to see that 
+	\begin{align*}
+		MN \le ME+EN = \frac{BC}{2} + \frac{AD}{2} = \frac{AD+BC}{2}
+	\end{align*}
+	The equality can happen if and only if $MN$ intersect $AC$ at the midpoint of $AC$, so $MN \parallel AD \parallel BC.$
+	\vskip 0.1cm
+	By the claim $AD+BC \ge 2MN, \text{\ similarly\ } AB+CD \ge 2PQ,$ thus 
+	\begin{align*}
+		AB\!+\!BC\!+\!CD\!+\!DA \!\ge\! 2(MN+PQ). \tag{$*$}
+	\end{align*}
+	Now, let $P$ and $Q$ be the midpoints of $BC$ and $AD$, respectively.
+	Since the circles of diameters $AB$ and $CD$ are externally tangent so $AB+CD = 2MN,$ similarly $AD+BC = 2.$
+	Thus 
+	\begin{align*}
+		AB\!+\!BC\!+\!CD\!+\!DA \!=\! 2(MN+PQ). \tag{$**$} 
+	\end{align*}	
+	($**$) implies the existence of equality in ($*$), so $MN \parallel AD \parallel BC$ and $PQ \parallel AB \parallel CD$.
+	Thus $ABCD$ is a parallelogram, and $MN = AD = BC.$ Similarly $AB=CD.$ Since $AB +CD = 2MN$ (see above), therefore
+	\begin{align*}
+		AD = BC = MN = AB = CD.
+	\end{align*}
+	Hence, $ABCD$ is a rhombus.
+\end{multicols}
