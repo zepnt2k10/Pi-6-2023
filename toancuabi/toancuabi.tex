@@ -232,19 +232,100 @@
 			\centering
 			\vspace*{-5pt}
 			\captionsetup{labelformat=empty, justification=centering}
-			\includegraphics[width=0.75\linewidth]{_6}
-			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
+			\begin{tikzpicture}[toancuabi]
+				\draw  (-4.,0.)-- (0.,0.);
+				\draw  (0.,4.)-- (0.,0.);
+				\draw  (0.,4.)-- (-4.,0.);
+				\draw  (-3.,0.)-- (-3.,1.);
+				\draw  (-3.,1.)-- (-2.,1.);
+				\draw  (-2.,0.)-- (-2.,2.);
+				\draw  (-2.,2.)-- (0.,2.);
+				\draw  (-1.,2.)-- (-1.,3.);
+				\draw  (-1.,3.)-- (0.,3.);
+				\draw  (0.,1.)-- (-1.,1.);
+				\draw  (-1.,1.)-- (-1.,0.);
+				\draw  (0.,2.)-- (-2.,0.);
+				\draw  (0.,1.)-- (-1.,0.);
+				\draw  (-2.,1.)-- (-3.,0.);
+				\draw  (0.,3.)-- (-1.,2.);
+				\draw (-4.36,0.11) node {$A$};
+				\draw (0.38,0.09) node {$B$};
+				\draw (0.2,4.47) node {$C$};
+			\end{tikzpicture}
 			\vspace*{-15pt}
 		\end{figure}
-	\vskip 0.1cm
 	\textbf{\color{toancuabi}Phân tích bài toán:} Tại mỗi điểm nút trên hình vẽ, số cách đi từ $A$ đến nó sẽ bằng tổng số cách đi từ $A$ đến các điểm nút ngay đằng trước nó theo chiều mũi tên được phép đi (phải, lên trên và đi chéo).
-	\vskip 0.1cm
 		\begin{figure}[H]
 			\centering
 			\vspace*{-5pt}
 			\captionsetup{labelformat=empty, justification=centering}
-			\includegraphics[width=0.75\linewidth]{_7}
-			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
+			\begin{figure}[H]
+				\centering
+				\vspace*{-5pt}
+				\captionsetup{labelformat=empty, justification=centering}
+				\begin{tikzpicture}[toancuabi]
+					\draw  (-4.,0.)-- (0.,0.);
+					\draw  (0.,4.)-- (0.,0.);
+					\draw  (0.,4.)-- (-4.,0.);
+					\draw  (-3.,0.)-- (-3.,1.);
+					\draw  (-3.,1.)-- (-2.,1.);
+					\draw  (-2.,0.)-- (-2.,2.);
+					\draw  (-2.,2.)-- (0.,2.);
+					\draw  (-1.,2.)-- (-1.,3.);
+					\draw  (-1.,3.)-- (0.,3.);
+					\draw  (0.,1.)-- (-1.,1.);
+					\draw  (-1.,1.)-- (-1.,0.);
+					\draw  (0.,2.)-- (-2.,0.);
+					\draw  (0.,1.)-- (-1.,0.);
+					\draw  (-2.,1.)-- (-3.,0.);
+					\draw  (0.,3.)-- (-1.,2.);
+					
+					\draw[-stealth]  (-4.,0.)-- (-3.5,0.);
+					\draw[-stealth]  (-3.,0)-- (-2.5,0.);
+					\draw[-stealth]  (-2,0)-- (-1.5,0.);
+					\draw[-stealth] (-1.,0.)-- (-0.5,0.);
+					\draw[-stealth]  (0,0)-- (0,0.5);
+					\draw[-stealth]  (0,1)-- (0,1.5);
+					\draw[-stealth]  (0,2)-- (0,2.5);
+					\draw[-stealth]  (0,3)-- (0,3.5);
+					\draw[-stealth]  (-3,1)-- (-2.5,1);
+					\draw[-stealth]  (-1,1)-- (-0.5,1);
+					\draw[-stealth]  (-2,2)-- (-1.5,2);
+					\draw[-stealth]  (-1,2)-- (-0.5,2);
+					\draw[-stealth]  (-1,3)-- (-0.5,3);
+					
+					\draw[-stealth]  (-4,0)-- (-3.5,0.5);
+					\draw[-stealth]  (-3,1)-- (-2.5,1.5);
+					\draw[-stealth]  (-2.,2.)-- (-1.5,2.5);
+					\draw[-stealth]  (-1.,3.)-- (-0.5,3.5);
+					\draw[-stealth]  (-3,0)-- (-2.5,0.5);
+					\draw[-stealth]  (-2,0)-- (-1.5,0.5);
+					\draw[-stealth]  (-1,0)-- (-0.5,0.5);
+					\draw[-stealth]  (-1,1)-- (-0.5,1.5);
+					\draw[-stealth]  (-1,2)-- (-0.5,2.5);
+					
+					\draw (-4.36,0.11) node {$A$};
+					\draw (0.38,0.09) node {$B$};
+					\draw (0.2,4.47) node {$C$};
+					
+					\draw (-4,0) node[below]{$1$};
+					\draw (-3,0) node[below]{$1$};
+					\draw (-2,0) node[below] {$1$};
+					\draw (-1,0) node[below] {$1$};
+					\draw (0,0) node[below] {$1$};
+					\draw (-3,1) node[left] {$2$};
+					\draw (-2,1) node[right] {$4$};
+					\draw (-1,1) node[left] {$2$};
+					\draw (0,1) node[right] {$4$};
+					\draw (-2,2) node[left] {$6$};
+					\draw (-1,2) node[below] {$6$};
+					\draw (0,2) node[right] {$12$};
+					\draw (0,3) node[right] {$30$};
+					\draw (0,4) node[right] {$42$};
+					\draw (-1,3) node[left] {$12$};
+				\end{tikzpicture}
+				\vspace*{-15pt}
+			\end{figure}
 			\vspace*{-15pt}
 		\end{figure}
 		Vậy nên ta có để điền mũi tên hướng đi và áp dụng quy tắc cộng để giải quyết các bài toán dạng này.
@@ -320,8 +401,18 @@
 			\centering
 			\vspace*{-10pt}
 			\captionsetup{labelformat=empty, justification=centering}
-			\includegraphics[width=0.75\linewidth]{_8}
-			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
+			\begin{tikzpicture}[toancuabi]
+				\draw  (-5.,3.)-- (-3.,4.);
+				\draw  (-3.,4.)-- (-1.,4.);
+				\draw  (-1.,4.)-- (0.,2.);
+				\draw  (0.,2.)-- (-3.,0.);
+				\draw  (-3.,0.)-- (-5.,3.);
+				\draw (-4.08,3.89) node {$e$};
+				\draw (-2.,4.35) node {$a$};
+				\draw (-0.32,3.21) node {$b$};
+				\draw (-1.2,0.95) node {$c$};
+				\draw (-4.2,1.39) node {$d$};
+			\end{tikzpicture}
 			\vspace*{-5pt}
 		\end{figure}
 		\textbf{\color{toancuabi}Phân tích bài toán:} Nếu ta tô thứ tự $a,b,c,d,e$ thì $a$ và $b$ có tương ứng $3$ và $2$ cách tô. Đến tô $c$ thông thường sẽ có $2$ cách tô, $d$ cũng $2$ cách tô, nhưng nếu như vậy thì $e$ sẽ không xác định được số cách tô vì nó phụ thuộc vào $2$ cạnh $a$ và $d$, bởi vậy ta cần xét đến mầu cụ thể của $c$ cũng như của $d$ để tính được số cách tô mầu $c$. Vậy ta có thể tiếp cận bài toán bằng hai cách sau đây.
@@ -332,9 +423,9 @@
 		\vskip 0.1cm
 		Tô $c$:
 		\vskip 0.1cm
-		\textbf{\color{toancuabi}Trường hợp $1$:} $c$ cùng mầu với $a, c$ có $1$ cách tô, $d$ có $2$ cách tô, $e$ có $1$ cách tô, số cách tô ngũ giác là: $3\times2\times1\times2\times1=12$ ($1$).
+		\textbf{\color{toancuabi}Trường hợp $\pmb{1}$:} $c$ cùng mầu với $a, c$ có $1$ cách tô, $d$ có $2$ cách tô, $e$ có $1$ cách tô, số cách tô ngũ giác là: $3\times2\times1\times2\times1=12$ ($1$).
 		\vskip 0.1cm
-		\textbf{\color{toancuabi}Trường hợp $2$:} $c$ khác mầu với $a, c$ có $1$ cách tô (vì $c$ khác với cạnh $b$ kề với nó), xét $2$ khả năng tô $d$:
+		\textbf{\color{toancuabi}Trường hợp $\pmb{2}$:} $c$ khác mầu với $a, c$ có $1$ cách tô (vì $c$ khác với cạnh $b$ kề với nó), xét $2$ khả năng tô $d$:
 		\vskip 0.1cm
 		$2.1$ $d$ cùng mầu với $a, d$ có $1$ cách tô, e có $2$ cách tô. Số cách tô ngũ giác là $3\times2\times1\times2\times1=12$ ($2$).
 		\vskip 0.1cm
@@ -346,9 +437,9 @@
 	\vskip 0.1cm
 	Tô $a$, có $3$ cách tô. Tô $c$, xét $2$ trường hợp:
 	\vskip 0.1cm
-	\textbf{\color{toancuabi}Trường hợp $1$:} $c$ cùng mầu $a, c$ có $1$ cách tô, $b$ có $2$ cách tô, $d$ có $2$ cách tô, $e$ có $1$ cách tô. Số cách tô ngũ giác là: $3\times1\times2\times2\times1=12$ ($1$).
+	\textbf{\color{toancuabi}Trường hợp $\pmb{1}$:} $c$ cùng mầu $a, c$ có $1$ cách tô, $b$ có $2$ cách tô, $d$ có $2$ cách tô, $e$ có $1$ cách tô. Số cách tô ngũ giác là: $3\times1\times2\times2\times1=12$ ($1$).
 	\vskip 0.1cm
-	\textbf{\color{toancuabi}Trường hợp $2$:} $c$ khác mầu $a, c$ có $2$ cách tô, $b$ có $1$ cách tô. Xét $2$ khả năng tô $d$.
+	\textbf{\color{toancuabi}Trường hợp $\pmb{2}$:} $c$ khác mầu $a, c$ có $2$ cách tô, $b$ có $1$ cách tô. Xét $2$ khả năng tô $d$.
 	\vskip 0.1cm
 	$2.1$ $d$ cùng mầu với $a, d$ có $1$ cách tô, $e$ có $2$ cách tô. Số cách tô ngũ giác là: $3\times2\times1\times1\times2=12$ ($2$).
 	\vskip 0.1cm
@@ -356,15 +447,29 @@
 	\vskip 0.1cm
 	Từ ($1$),($2$),($3$) ta có số cách tô cần tìm là: $12+12+6=30$.
 	\vskip 0.1cm
-		\textbf{\color{toancuabi}Bài toán số $6$: (Apmops)}
+		\textbf{\color{toancuabi}Bài toán số $\pmb{6}$: (Apmops)}
 		\vskip 0.1cm
 		$A,B,C,D,E$ và $F$ là các điểm nằm trên $2$ đường thẳng như hình vẽ. Có bao nhiêu tam giác được tạo bởi $3$ trong $6$ điểm đã cho.
 		\begin{figure}[H]
 			\centering
 			\vspace*{-5pt}
 			\captionsetup{labelformat=empty, justification=centering}
-			\includegraphics[width=0.75\linewidth]{_9}
-			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
+			\begin{tikzpicture}
+				\draw  (-5.,2.)-- (-0.02,2.58);
+				\draw  (-4.94,2.78)-- (-0.66,5.62);
+				\draw[fill=white]  (-3.9971801091570645,3.4056094602789573) circle (1.5pt);
+				\draw (-3.86,3.77) node {$A$};
+				\draw[fill=white]  (-2.7676858702243776,4.221442086112797) circle (1.5pt);
+				\draw (-2.62,4.59) node {$B$};
+				\draw[fill=white]  (-1.6167058823529414,4.985176470588236) circle (1.5pt);
+				\draw (-1.48,5.35) node {$C$};
+				\draw[fill=white]  (-3.7559113331848124,2.144893860793737) circle (1.5pt);
+				\draw (-3.62,2.51) node {$F$};
+				\draw[fill=white]  (-2.1392062633270745,2.3331848127048787) circle (1.5pt);
+				\draw (-2.,2.71) node {$E$};
+				\draw[fill=white]  (-0.8951175965118869,2.4780786734986155) circle (1.5pt);
+				\draw (-0.76,2.85) node {$D$};
+			\end{tikzpicture}
 			\vspace*{-15pt}
 		\end{figure}
 	\vskip 0.1cm
@@ -388,18 +493,45 @@
 	\vskip 0.1cm
 	Mở rộng bài toán số $5$, các bạn thử sức của mình xem sao nhé.
 	\vskip 0.1cm
-		\textbf{\color{toancuabi}Bài toán $6.1$ (Apmops)}
+		\textbf{\color{toancuabi}Bài toán $\pmb{6.1}$ (Apmops)}
 		\vskip 0.1cm
 		Cho các điểm $A1$, $A2$, $A3$, $B1$, $B2$, $B3$, $B4$, $C1$, $C2$, $C3$, $C4$ và $C5$ nằm trên $3$ đường thẳng như hình vẽ. Có bao nhiêu tam giác được tạo bởi $3$ trong các đỉnh đã cho?
 		\begin{figure}[H]
 			\centering
 			\vspace*{-5pt}
 			\captionsetup{labelformat=empty, justification=centering}
-			\includegraphics[width=0.75\linewidth]{_10}
-			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
+			\begin{tikzpicture}
+				\draw  (-5.4,1.6)-- (-1.7,5.32);
+				\draw  (-2.74,5.5)-- (0.28,1.64);
+				\draw  (-5.6,2.)-- (0.78,2.02);
+				\draw[fill=white]  (-4.45248688627018,2.552634806236469) circle (1.5pt);
+				\draw (-4.61,3.02) node {$A_1$};
+				\draw[fill=white]  (-3.6547027796748095,3.3547312593539766) circle (1.5pt);
+				\draw (-3.91,3.88) node {$A_2$};
+				\draw[fill=white]  (-2.856811147760132,4.1569358190087335) circle (1.5pt);
+				\draw (-3.09,4.66) node {$A_3$};
+				\draw[fill=white]  (-1.8796143213988348,4.400301748542881) circle (1.5pt);
+				\draw (-1.69,4.82) node {$B_1$};
+				\draw[fill=white]  (-1.4504776019983348,3.851802497918401) circle (1.5pt);
+				\draw (-1.27,4.28) node {$B_2$};
+				\draw[fill=white]  (-0.9673278934221485,3.2342667776852623) circle (1.5pt);
+				\draw (-0.77,3.66) node {$B_3$};
+				\draw[fill=white]  (-0.5014784346378021,2.6388432972522895) circle (1.5pt);
+				\draw (-0.31,3.06) node {$B_4$};
+				\draw[fill=white]  (-4.359949489986439,2.003887305674024) circle (1.5pt);
+				\draw (-4.43,1.82) node {$C_1$};
+				\draw [fill=white] (-3.619831371238773,2.0062074251685305) circle (1.5pt);
+				\draw (-3.63,1.82) node {$C_2$};
+				\draw[fill=white]  (-2.0000353766631944,2.0112851555590496) circle (1.5pt);
+				\draw (-2.03,1.82) node {$C_3$};
+				\draw[fill=white]  (-1.3800414693107446,2.0132287101275526) circle (1.5pt);
+				\draw (-1.43,1.78) node {$C_4$};
+				\draw[fill=white]  (-0.839921385192901,2.0149218765354453) circle (1.5pt);
+				\draw (-0.77,1.8) node {$C_5$};
+			\end{tikzpicture}
 			\vspace*{-15pt}
 		\end{figure}
-		{Bài toán $6.2$}
+		\textbf{\color{toancuabi}Bài toán $\pmb{6.2}$}
 		Có bao nhiêu tam giác trong hình vẽ?
 		\begin{figure}[H]
 			\centering
@@ -409,7 +541,7 @@
 			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
 			\vspace*{-5pt}
 		\end{figure}
-		{Bài toán $6.3$}
+		\textbf{\color{toancuabi}Bài toán $\pmb{6.3}$}
 		Có bao nhiêu tam giác được tạo bởi 3 trong 12 điểm đã cho trên lưới ô vuông như hình vẽ?
 		\begin{figure}[H]
 			\centering
@@ -419,7 +551,7 @@
 			%	\caption{\small\textit{Hoán vị vòng tròn $4$ người ngồi xung quanh một cái bàn hình tròn.}}
 			\vspace*{-5pt}
 		\end{figure}
-	\textbf{\color{toancuabi}Bài toán số $7$: (Apmops)}
+	\textbf{\color{toancuabi}Bài toán số $\pmb{7}$: (Apmops)}
 	\vskip 0.1cm
 	Có bao nhiêu cách để tô $6$ mặt của một hình lập phương bằng $6$ mầu, mỗi mặt được tô bằng $1$ mầu sao cho không có hai mặt nào có cùng mầu? (Hai cách tô mầu được coi là như nhau nếu chúng nhìn giống hệt nhau sau một phép xoay hình). 
 	\vskip 0.1cm
@@ -655,110 +787,169 @@
 		\vspace*{-5pt}
 	\end{figure}
 \end{multicols}
-%\newpage
-%\begingroup
-%\AddToShipoutPicture*{\put(110,645){\includegraphics[scale=1]{../tieude2.pdf}}} 
-%\centering
-%\endgroup
-%\vspace*{55pt}
-%
-%\begin{multicols}{2}
-%	$\pmb{1.}$ Một bác nông dân chở một xe ô tô quất cảnh ra chợ Tết để bán. Sau khi bán hết cây quất cuối cùng với giá $230$ nghìn đồng, bác tính nhẩm lại thấy mình đã bán số cây quất với giá trung bình là $245$ nghìn đồng/cây. Nhưng ngay lúc ấy người mua cây quất cuối quay trở lại và chỉ cho bác thấy cành quất bị rụng quá nhiều lá, nên ông ta chỉ đồng ý mua với giá $158$ nghìn đồng. 
-%	Bác chấp thuận và bán cây quất đó. Khi nhẩm tính lại, bác nông dân thấy giá trung bình của xe quất bây giờ là $242$ nghìn đồng/cây. Hỏi bác đã bán được bao nhiêu cây quất?
-%	\begin{figure}[H]
-%		\centering
-%		\vspace*{-10pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width=0.7\linewidth]{Pi1_2_Bai1}
-%		\vspace*{-15pt}
-%	\end{figure}
-%	\textit{Lời giải.} Gọi số cây quất là $n$, và tổng số tiền bán được của toàn bộ số quất, trừ cây cuối cùng, là $q$ (nghìn đồng). Khi đó $q+230 = 245n$ và $q+ 158 = 242n$. Trừ hai đẳng thức này ta có $72 = 3n$. Suy ra bác nông dân đã bán được $24$ cây quất.
-%	\vskip 0.1cm
-%	$\pmb{2.}$ Chuyện kể rằng có một người khi gặp nhà triết học và toán học Hy Lạp Pythagoras đã hỏi ông: ``Bây giờ là mấy giờ?" Pythagoras đã trả lời ``Cho đến hết ngày, còn lại hai lần của hai phần năm khoảng thời gian đã trôi qua từ lúc bắt đầu ngày". Nghe vậy, người đó chịu không thể nghĩ ra ngay được lúc họ gặp nhau là mấy giờ. Em có thể giúp trả lời lúc đó là mấy giờ được không?
-%	\vskip 0.1cm
-%	\textit{Lời giải.} 	Gọi $x$ là thời gian (tính theo giờ) đã trôi qua từ lúc bắt đầu ngày. Khi đó ta có hệ thức sau theo câu trả lời của Pythagoras: $24 - x = 4/5 x$. Suy ra $x = 40/3$ (giờ), có nghĩa là $13$ giờ $20$ phút. Vậy người đó đã gặp Pythagoras lúc $13$ giờ $20$ phút.
-%	\begin{figure}[H]
-%		\centering
-%		\vspace*{-10pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width=0.6\linewidth]{Pi1_2_Bai2}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	$\pmb{3.}$ Một tháng trước bà Hoa ra chợ mua một cân khoai tây, một cân thịt và một chục trứng. Chủ nhật vừa rồi, khoai tây tăng lên gấp $3$, thịt gấp $4$ lần còn trứng đắt gấp $5$ lần, nên bà Hoa phải trả $600$ nghìn cho từng ấy món hàng như lần thứ nhất. Hôm nay thì khoai lại đắt gấp $6$ lần so với tháng trước, thịt đắt gấp $5$ lần còn trứng chỉ đắt gấp $4$ lần nên bà Hoa lại phải trả $660$ nghìn với cùng một lượng hàng. Hỏi bà Hoa đã trả bao nhiêu tiền cho lần mua thứ nhất?
-%	\begin{figure}[H]
-%		\centering
-%		\vspace*{-10pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width=0.6\linewidth]{Pi1_2_Bai3}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.} 	Giả sử vào tháng trước trong lần mua đầu tiên giá một cân khoai tây là $a$ (nghìn đồng), giá một cân thịt là $b$ (nghìn đồng) và giá một chục trứng là $c$ (nghìn đồng). Khi đó trong lần mua thứ nhất bà Hoa đã trả $a + b + c$ (nghìn), trong lần mua thứ hai là $3a+4b+5c = 600$ và trong lần mua thứ ba là $6a + 5b+ 4c = 660$. Cộng hai đẳng thức cuối này, ta có $9(a+b+c)= 1260$. Suy ra $a+b+c = 140$. Vậy vào tháng trước bà Hoa chỉ phải trả có $140$ nghìn đồng.
-%	\vskip 0.1cm
-%	$\pmb{4.}$ Trong một buổi dạ hội nọ mỗi quý ông đã hân hạnh khiêu vũ với ba quý bà, còn mỗi quý bà cũng đã khiêu vũ với ba quý ông. Em hãy chỉ ra rằng số quý ông và số quý bà tham gia dạ hội là bằng nhau.
-%	\begin{figure}[H]
-%		\centering
-%		\vspace*{-5pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width=0.75\linewidth]{Pi1_2_Bai4}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.} Ta sẽ tính tổng tất cả các cặp đã khiêu vũ với nhau. Một mặt, tổng này sẽ bằng $3$ lần số các quý ông, mặt khác nó lại bằng $3$ lần số các quý bà. Vì thế số các quý ông bằng số các quý bà.
-%	\vskip 0.1cm
-%	$\pmb{5.}$ 	Sau khi kết thúc một giải thi cờ vua, ban tổ chức nhận thấy mỗi kỳ thủ tham gia đã có số trận thắng khi chơi bằng quân trắng bằng đúng tổng số trận thắng của toàn bộ các kỳ thủ còn lại khi chơi quân đen. Em hãy chỉ ra rằng tất cả các kỳ thủ tham gia thi đấu đã có số trận thắng là như nhau.
-%	\begin{figure}[H]
-%		\centering
-%		\vspace*{-5pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width=0.6\linewidth]{Pi1_2_Bai5}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.} Các em có thể nhận thấy số trận thắng của mỗi kỳ thủ tham gia giải bằng đúng tổng số trận thắng của tất cả các kỳ thủ (kể cả chính kỳ thủ đó) khi chơi bằng quân đen. Vì thế mọi kỳ thủ tham gia đã có số trận thắng bằng nhau.
-%	\vskip 0.1cm
-%	$\pmb{6.}$ Vào một ngày Chủ nhật nọ, Vinh và người em trai nhỏ tuổi hơn là Minh  đạp hai chiếc xe tới hiệu sách trung tâm cách nhà vài cây số. Tại đó mỗi người chọn mua một cuốn sách quý mà nhóm bạn bè cũ đang bàn luận khen ngợi thường xuyên mấy năm nay trên Facebook. Mỗi người đều lấy tổng tất cả các chữ số của tất cả các trang sách mình đã mua và nhận thấy rằng số đó bẳng năm sinh của mình. Vậy ai  trong số hai anh em Vinh và Minh  đang đi học lớp  bồi dưỡng Toán cho học sinh phổ thông nhỉ?
-%	\begin{figure}[H]
-%		\centering
-%		\vspace*{-5pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width=1\linewidth]{Pi1_2_Bai6}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.} 	Trước tiên ta tính tổng chữ số của tất cả các số từ $1$ tới $99$. Nhận thấy rằng mỗi chữ số, trừ chữ số $0$ đều xuất hiện $10$ lần ở hàng chục, và cũng $10$ lần ở hàng đơn vị, nghĩa là $20$ lần tổng cộng. Do $1+2+ \cdots+9=45$, nên tổng này bằng  $900$. Tổng các chữ số của các số từ $100$ tới $199$ sẽ lớn hơn tổng trước là $100$. Vì thế tổng các chữ số của các số từ $1$ tới $199$ bằng $1900$. Vì vậy ta xét một vài trường hợp sau.
-%	\begin{table}[H]
-%		\centering
-%		\vspace*{-5pt}
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\renewcommand{\arraystretch}{1.05}
-%		\begin{tabular}{|l|l|}
-%			\hline
-%			\textbf{\color{toancuabi}Số trang sách}&	\textbf{\color{toancuabi}Tổng các chữ số}\\
-%			\hline
-%			$200$&	$1900+2 =1902$\\
-%			\hline
-%			$202$&	$1902+3+4=1909$\\
-%			\hline
-%			$204$&	$1909+5+6=1920$\\
-%			\hline
-%			$206$&	$1920+7+8=1935$\\
-%			\hline
-%			$208$&	$1935+9+10=1954$\\
-%			\hline
-%			$210$&	$1954+11+3=1968$\\
-%			\hline
-%			$212$&	$1968+4+5=1977$\\
-%			\hline
-%			$214$&	$1977+6+7=1990$\\
-%			\hline
-%			$216$&	$1990+8+9=2007$\\
-%			\hline
-%			$217$&	$2007+10=2017$\\
-%			\hline
-%			$218$&	$2017+11=2028$\\
-%			\hline
-%		\end{tabular}
-%		\vspace*{-5pt}
-%	\end{table}
-%	Các em thấy ngay chỉ có người sinh năm $2007$ trong số hai anh em mới có thể là học sinh phổ thông. Người đó cũng không thể là anh, vì nếu vậy người em trai sinh năm $2017$ đến giờ mới có $5$ tuổi không thể tự đi xe đạp vài cây số để mua sách dày hơn hai trăm trang và về nhà tự làm tính cộng hết từng đó chữ số, hơn nữa lại có nhóm bạn bè cũ trên Facebook bàn luận về cuốn sách tới mấy năm rồi. Vì vậy các em kết luận được người sinh năm $2007$ là em và có tên là Minh.
-%\end{multicols}
+\newpage
+\begingroup
+\AddToShipoutPicture*{\put(112,645){\includegraphics[scale=1]{../tieude2.pdf}}} 
+\centering
+\endgroup
+\vspace*{55pt}
+
+\begin{multicols}{2}
+	$\pmb{1.}$	Bạn Công đã trả $24$ nghìn đồng để mua được $1$ cuốn vở, $2$ chiếc bút chì và $1$ cái tẩy. Bạn Nam thì trả tận $54$ nghìn đồng để mua được $2$ cuốn vở, $3$ chiếc bút chì và $3$ cái tẩy. Hỏi bạn An đã trả bao nhiêu tiền để mua được $2$ cuốn vở, $5$ chiếc bút chì và $1$ cái tẩy?
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=1\linewidth]{Pi3_bai1}
+		\vspace*{-10pt}
+	\end{figure}
+	\textit{Lời giải.} 	Cả $3$ bạn Công, Nam và An đã mua $5$ cuốn vở, $10$ chiếc bút chì và $5$ cái tẩy, bằng đúng $5$ lần số lượng mà Công đã mua. Vì thế $3$ bạn đã trả số tiền là 
+	\begin{align*}
+		24\times 5=120 \text{(nghìn đồng).} 
+	\end{align*}
+	Công và Nam đã trả $78$ nghìn đồng. Suy ra An đã trả 
+	\begin{align*}
+		120-78 = 42 \text{(nghìn đồng).}	
+	\end{align*}
+	 $\pmb{2.}$ Bác Tuyết mang sữa đựng đầy trong hai chiếc thùng ra chợ bán. Lượng sữa trong thùng to nhiều gấp $3$ lần lượng sữa trong chiếc thùng nhỏ. Khi trong chiếc thùng nhỏ còn có $15$ lít sữa, còn thùng to còn $35$ lít sữa, bác Tuyết đổ dồn một lượng sữa từ thùng to cho đầy chiếc thùng nhỏ. Khi đó trong chiếc thùng to lượng sữa còn lại  đầy tới một nửa thùng. Hỏi bác Tuyết đã đổ bao nhiêu sữa từ thùng to sang thùng nhỏ, và dung tích của mỗi thùng là bao nhiêu?
+	 \begin{figure}[H]
+	 	\centering
+	 	\vspace*{5pt}
+	 	\captionsetup{labelformat= empty, justification=centering}
+	 	\includegraphics[width=0.75\linewidth]{Pi3_bai2}
+	 	\vspace*{-5pt}
+	 \end{figure}
+	\textit{Lời giải}. Các em nhận thấy, sau khi đổ dồn sữa, số sữa còn lại trong thùng to sẽ gấp rưỡi số sữa trong thùng nhỏ. Gọi số sữa đã đổ dồn sang thùng nhỏ là $a$ ( lít) thì ta có 
+	\begin{align*}
+		1{.}5\times (15+a)=35-a.
+	\end{align*}
+	Từ đây suy ra $a =5$. Do đó dung tích của thùng bé là $20$ lít và thùng to là $60$ lít.
+	\vskip 0.1cm
+	Cách giải khác. Lượng sữa bác Tuyết có lúc đổ từ thùng to thùng nhỏ là $50$ và bằng $2{.}5$ lần dung tích thùng nhỏ. Vậy dung tích thùng nhỏ là 
+	\begin{align*}
+		50: 2{.}5  = 20 \text{(lít).} 
+	\end{align*}
+	Số sữa được đổ từ thùng to sang thùng nhỏ là: 
+	\begin{align*}
+		25-20=5 \text{(lít).} 
+	\end{align*}
+	Và dung tích thùng to là 
+	\begin{align*}
+		3 \times 20=60 \text{(lít).}
+	\end{align*}
+	$\pmb{3.}$ Một tấn hoa quả được chở tới siêu thị: táo được đóng theo các thùng gỗ  $48$ kg/thùng, lê được đóng trong các thùng gỗ $20$ kg/thùng, mận đựng trong hộp giấy theo $14$ kg/hộp còn nho đựng trong các hộp giấy theo $10$ kg/hộp. Biết rằng số kg táo được chở tới nhiều gấp đôi số kg lê, còn số kg mận và nho là bằng nhau, hỏi số lượng mỗi loại hoa quả đã được vận chuyển tới cửa hàng là bao nhiêu?
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=1\linewidth]{Pi3_bai3}
+		\vspace*{-15pt}
+	\end{figure}
+	\textit{Lời giải.} Gọi số thùng táo là $a$, số hộp mận là $b$. Suy ra số thùng lê là 
+	\begin{align*}
+		\dfrac{48 \times a}{40} = \dfrac{6 \times a}{5}.
+	\end{align*}
+	Số hộp nho là
+	\begin{align*}
+		\dfrac{14 \times b}{10} = \dfrac{7 \times b}{5}.
+	\end{align*}
+	Theo đề bài ta có tổng số kg các loại quả là: 
+	\begin{align*}
+		48a+24a+14b+14b =1000. 
+	\end{align*}
+	Có nghĩa là
+	\begin{align*}
+		72a+28b=1000.
+	\end{align*}
+	Chia cả hai vế cho $4$, ta nhận được 
+	\begin{align*}
+		18a+7b=250.
+	\end{align*}
+	Vì $\dfrac{6 \times a}{5}$ là số nguyên, suy ra $a$ chia hết cho $5$. Tương tự $b$ chia hết cho $5$. Đặt $a = 5m,b=5n$ (trong đó $m$, $n$ là các số nguyên dương),  ta rút ra được hệ thức
+	\begin{align*}
+		18m+7n = 50.
+	\end{align*}
+	Từ đây suy ra $1\le m \le 2$.
+	\vskip 0.1cm 
+	Thử trực tiếp, với $m=1$ suy ra $7n=32$ (loại, do $n$ là số nguyên). 
+	\vskip 0.1cm
+	Với $m=2$ suy ra $n=2$. Vậy $a=10,b=10$.
+	\vskip 0.1cm 
+	Đáp số: $10$ thùng táo, $12$ thùng lê, $14$ hộp nho và $10$ hộp mận.
+	\vskip 0.1cm
+	$\pmb{4.}$ Bạn An khởi hành đi bộ từ làng $A$ tới làng $B$ lúc $8$h sáng. Đồng thời vào lúc đó, bạn Bình cũng đi bộ từ làng $B$ tới làng $A$. Hai bạn đều đi với vận tốc không đổi, nhưng có thể không bằng nhau. Khi gặp nhau ở giữa đường, bạn An còn phải đi thêm $32$ phút nữa, còn Bình phải đi thêm $18$ phút nữa thì mới tới nơi. Hỏi hai bạn đã gặp nhau sau bao lâu tính từ lúc khởi hành?
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=1\linewidth]{Pi3_bai4}
+		\vspace*{-15pt}
+	\end{figure}
+	\textit{Lời giải.} Gọi $a$ (m/phút) là vận tốc của An, còn $b$ (m/phút) là vận tốc của Bình. Giả sử sau khoảng thời gian là $t$ (phút) tính từ lúc khởi hành hai bạn đã gặp nhau. Suy ra
+	\begin{align*}
+		32a = tb
+	\end{align*} 
+	và
+	\begin{align*}
+		18b = ta. 
+	\end{align*}
+	Nhân hai vế các đẳng thức này với nhau và rút gọn cho $ab$ ta có
+	\begin{align*}
+		t^2=574.
+	\end{align*}
+	Từ đó suy ra $t=24$.
+	Vậy các bạn đã gặp gỡ nhau sau $12$ phút tính từ lúc khởi hành.
+	\vskip 0.1cm
+	Cách khác:  Kí hiệu $C$ là điểm hai bạn gặp nhau, do quãng đường tỷ lệ thuận với thời gian đi của mỗi bạn nên tỷ số quãng đường $AC$ và $CB$ là
+	$t:18$ đồng thời cũng là $32:t$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[toancuabi,scale=0.85]
+			\draw (0,0) -- (8,0);
+			\draw (0,0.2) node [above] {$A$};
+			\draw (5,0.2) node [above] {$B$};
+			\draw (8,0.2) node [above] {$C$};
+			\draw [fill=white] (0,0) circle (3.5pt);
+			\draw [fill=white] (5,0) circle (3.5pt);
+			\draw [fill=white] (8,0) circle (3.5pt);
+		\end{tikzpicture}
+		\vspace*{-10pt}
+	\end{figure}
+	Suy ra $t=24$.
+	Vậy các bạn đã gặp gỡ nhau sau $12$ phút tính từ lúc khởi hành.
+	\vskip 0.1cm
+	$\pmb{5.}$ Trong một cuộc thi thể thao do nhà vua Pháp tổ chức, $3$ chàng ngự lâm pháo thủ là Athos, Porthos và Aramis cùng D'Artagnan chia nhau bốn vị trí đầu tiên: $1$, $2$, $3$, $4$ (ứng với giải thưởng: nhất, nhì, ba, bốn). Tổng ba số chỉ vị trí mà Athos, Porthos và D'Artagnan giữ là bằng $6$. Tổng hai số chỉ vị trí mà Porthos và Aramis giữ cũng bằng $6$. Hỏi mỗi chàng ngự lâm đã chiếm các giải nào, biết Porthos chiếm được giải cao hơn Arthos?
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=1\linewidth]{Pi3_bai5}
+		\vspace*{-15pt}
+	\end{figure}
+	\textit{Lời giải.} 	Tổng số vị trí của $4$ chàng ngự lâm là 
+	\begin{align*}
+		1+2+3+4 =10.
+	\end{align*} 
+	Từ điều kiện đầu tiên suy ra Aramis giữ vị trí thứ 
+	\begin{align*}
+		10-6 = 4.
+	\end{align*}
+	Từ điều kiện thứ hai suy ra Porthos giữ vị trí số $2$. Từ điều kiện cuối cùng suy ra Arthos giữ vị thứ thứ $3$, còn D'Artagnan giữ vị trí số~$1$.
+	\vskip 0.1cm
+	$\pmb{6.}$ Tại một khách sạn nọ, nhân viên trực quản lý điều hành phải làm việc từ $8$h sáng tới $8$h tối (phương án $A$), hoặc từ $8$h tối tới $8$h sáng (phương án $B$), hoặc làm trọn cả ngày $24$h bắt đầu từ $8$h (sáng hoặc tối) (phương án $C$). Nếu làm theo phương án $A$, nhân viên trực quản lý sẽ được nghỉ không ít hơn $1$ ngày ($24$h). Nếu làm theo phương án $B$, nhân viên trực quản lý sẽ được nghỉ không ít hơn $1$ ngày rưỡi ($36$h). Còn nếu làm theo phương án $C$, nhân viên trực quản lý sẽ được nghỉ không ít hơn hai ngày rưỡi ($60$h).
+	\vskip 0.1cm
+	Hỏi khách sạn phải cần có ít nhất bao nhiêu nhân viên trực quản lý để đảm bảo lịch làm việc, nghỉ ngơi ở trên được tuân thủ?
+	\vskip 0.1cm
+	\textit{Lời giải.} Rõ ràng thấy rằng khách sạn có thể chỉ cần $4$ nhân viên quản lý để điều hành theo sơ đồ làm việc ``một ngày làm, $3$ ngày nghỉ" theo phương án C--C--C--C.
+	\vskip 0.1cm
+	Ta sẽ chỉ ra rằng không thể bố trí với số nhân viên ít hơn $4$ người. Thật vậy, nếu có ai đó phải làm cả ngày ($24$h) thì trong thời gian anh ta nghỉ, vì không ai làm việc được quá $1$ ngày liền ($24$h), nên suốt thời gian nghỉ của anh ta là $2{.}5$ ngày, phải có ít nhất $3$ người khác thay phiên nhau làm việc.
+	\vskip 0.1cm
+	Nếu không có ai làm quá nửa ngày, thì do phải có ai đó làm việc vào ca đêm, nên khi anh ta nghỉ (ít nhất là $1{.}5$ ngày) phải có thêm ít nhất $3$ nhân viên quản lý khác phải làm thay thế.
+	\vskip 0.1cm
+	Vậy khách sạn cần có ít nhất $4$ nhân viên quản lý trực.
+\end{multicols}
 %\newpage
 %\begingroup
 %\thispagestyle{toancuabinone}
@@ -993,7 +1184,6 @@
 %		\end{align*}		
 %		Thus, the score of the path is $100-2={98}.$
 %\end{multicols}
-
 \newpage
 \begingroup
 \thispagestyle{toancuabinone}
@@ -1087,7 +1277,7 @@
 	\textit{Proof}.
 	We first prove a claim.
 	\vskip 0.1cm
-	\textbf{Claim.} Let $M$ and $N$ be the midpoint of $AB$ and $CD$, respectively, then $AD+ BC \ge 2MN.$
+	\textbf{\color{toancuabi}Claim.} Let $M$ and $N$ be the midpoint of $AB$ and $CD$, respectively, then $AD+ BC \ge 2MN.$
 	\vskip 0.1cm
 	\textit{Proof.}
 	Let $E$ be the midpoint of $AC.$ It is easy to see that 
