@@ -23,7 +23,7 @@
 	\vskip 0.1cm
 	\textit{Chú ý}: $ \lfloor x \rfloor $ ký hiệu phần nguyên của một số thực $x,$ được định nghĩa là số nguyên lớn nhất nhỏ hơn hoặc bằng $x.$ Ví dụ: $ \lfloor 1.4 \rfloor =1$, $ \lfloor 2 \rfloor=2,$ và  $ \lfloor 2.9 \rfloor= 2.$  
 	\vskip 0.1cm 
-	\textit{Lời giải.} Đặt $k:=\lfloor \sqrt{n}\rfloor,$ theo định nghĩa phần nguyên ta có $k\le \sqrt{n}< k+1.$ Do đó $k^2\le n < (k+1)^2$, ta nhận được $k^2\le n\le k^2+2k$. Như vậy $k\le \frac{n}{k}\le k+2.$ Do $k$ là ước của $n$, ta suy ra $\frac{n}{k}$  bằng  một trong ba giá trị $k, k+1$ hoặc $k+2$. Tức là $n$ có phải có dạng $k^2, k(k+1)$ hoặc $k(k+2)$. Dễ đang kiểm tra các số $n$ có dạng này đều thỏa mãn điều kiện đầu bài.  
+	\textit{Lời giải.} Đặt $k:=\lfloor \sqrt{n}\rfloor,$ theo định nghĩa phần nguyên ta có $k\le \sqrt{n}< k+1.$ Do đó $k^2\le n < (k+1)^2$, ta nhận được $k^2\le n\le k^2+2k$. Như vậy $k\le \frac{n}{k}\le k+2.$ Do $k$ là ước của $n$, ta suy ra $\frac{n}{k}$  bằng  một trong ba giá trị $k, k+1$ hoặc $k+2$. Tức là $n$ có phải có dạng $k^2, k(k+1)$ hoặc $k(k+2)$. Dễ dàng kiểm tra các số $n$ có dạng này đều thỏa mãn điều kiện đầu bài.  
 	\vskip 0.1cm
 	\textit{Chú ý}: từ bất đẳng thức $k^2\le n\le k^2+2k$ ta cũng có thể lý luận như sau.  Do $0\le n-k^2\le 2k$ và $n-k^2$ là bội của $k$ nên $n-k^2$ nhận một trong ba giá trị $0, k$ hoặc $2k.$ Từ đó cũng nhận được kết luận như trên.  
 	\vskip 0.1cm
@@ -55,7 +55,7 @@
 		\end{tikzpicture}
 		\vspace*{-5pt}
 	\end{figure}
-	Giả sử Aya có thể tô màu $k$ thỏa mãn đầu bài. Nhận xét rằng khi đổi chỗ các hàng của bảng thì tập các ô được tô màu vẫn thỏa mãn đầu bài. Ta có thể đổi chỗ các hàng để $n$ ô chứa đồng xu là các ô đường chéo như trong hình vẽ bên dưới. Với các ô nằm ngoài đường chéo ta chia thành $\frac{n(n-1)}{2}$ cặp đối xứng nhau qua đường chéo. Nếu có một cặp mà cả $2$ ô trong đó đều được tô màu thì ta có thể chuyển $2$ đồng xu sang $2$ ô này như hình vẽ mà $n$ đồng xu vẫn nằm trên $n$ hàng và $n$ cột phân biệt. Điều này mâu thuẫn với giả thiết rằng chỉ có duy nhất một cách xếp $n$ đồng xu vào các ô được tô màu. 
+	Giả sử Aya có thể tô màu $k$ ô thỏa mãn đầu bài. Nhận xét rằng khi đổi chỗ các hàng của bảng thì tập các ô được tô màu vẫn thỏa mãn đầu bài. Ta có thể đổi chỗ các hàng để $n$ ô chứa đồng xu là các ô đường chéo như trong hình vẽ bên dưới. Với các ô nằm ngoài đường chéo ta chia thành $\frac{n(n-1)}{2}$ cặp đối xứng nhau qua đường chéo. Nếu có một cặp mà cả $2$ ô trong đó đều được tô màu thì ta có thể chuyển $2$ đồng xu sang $2$ ô này như hình vẽ mà $n$ đồng xu vẫn nằm trên $n$ hàng và $n$ cột phân biệt. Điều này mâu thuẫn với giả thiết rằng chỉ có duy nhất một cách xếp $n$ đồng xu vào các ô được tô màu. 
 	\vskip 0.1cm
 	Như vậy trong mỗi cặp chỉ có tối đa một ô được tô màu và ta nhận được $k\le n+ \frac{n(n-1)}{2}=\frac{n(n+1)}{2}.$ Do đó giá trị lớn nhất của $k$ thỏa mãn đầu bài là $\frac{n(n+1)}{2}.$
 	\begin{figure}[H]
